@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+  <head>
+    <!-- Codificacao da Pagina -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <!-- Titulo da pagina -->
+    <title>HTML 5 - Elementos Estruturais - seccionamento </title>
+
+  </head>
+ 
+  <body>
+    <!-- Corpo da Pagina -->
+    <header id="pageHeader">
+    <div class="header">
+        <h2 align="center"> HTML5 e CSS3</h2>
+        <h3> Aula 2:</h3>
+    </div>
+      <p>Exemplo de uso dos elementos estruturais:</p>
+      <nav id="menuPrincipal">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Post mais recentes</a></li>
+          <li><a href="#">Arquivo</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Menu Lateral - Esquerda -->
+    <!--
+    <section id=" menuLateral">
+ 
+    </section>
+    -->
+ 
+    <!--Menu Lateral - Direita-->
+    <section id=sidebar>
+      <nav>
+        <h3> Categorias: </h3>
+        <ul>
+          <li><a href="categoria?cat=1">Categoria 1</a></li>
+          <li><a href="categoria?cat=1">Categoria 2</a></li>
+          <li><a href="categoria?cat=1">Categoria 3</a></li>
+          <li><a href="categoria?cat=1">Categoria 4</a></li>
+          <li><a href="categoria?cat=1">Categoria 5</a></li>
+          <li><a href="categoria?cat=1">Categoria 6</a></li>
+        </ul>
+      </nav>
+    </section>
+ 
+ 
+ 
+    <!-- Principais posts do site-->
+    <section id=posts>
+      <aticle id="1502" class="post">
+        <header class="bla">
+          <h3> HTML e suas curiosidades:</h3>
+          <p> Turma B de Eng. de Software
+            <time datetime=" 2023-02-13T19:10:20"> 13 de fevereiro de 2023 às 19:10</time>
+          </p>
+        </header>
+ 
+        <p>
+          Quando a maioria das pessoas fala em "HTML", elas se referem à tecnologia como um todo, 
+          incluindo sua última versão: HTML5. Embora seja muito diferente em muitos aspectos, o HTML5 
+          é realmente apenas uma atualização polida para o padrão antigo.
+          Enquanto HTML e HTML5 fazem parte do mesmo sistema, a grande atualização trouxe várias melhorias à 
+          antiga linguagem de codificação, tornando-a ainda mais eficiente
+        </p>
+        <footer>
+          <p><a href="coments?post=1502"> 41 comentários</a></p>
+        </footer>
+        </article>
+    </section>
+ 
+ 
+ 
+    <footer id=pageFooter>
+      <p> &copy; 2023 – FRONT END</p>
+      <nav id=menuRodape>
+        <ul class=menu>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Termos de uso</a></li>
+          <li><a href="#">Política de privacidade</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+ 
+</html>

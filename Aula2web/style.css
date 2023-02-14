@@ -1,0 +1,65 @@
+body{
+    background-color: #CD853F;
+    padding: 0px;
+    width:960px;
+    margin: 10px auto;
+    font-family: Arial, "MS Trebuchet", sans-serif;
+    border: solid #696969;
+    border-radius: 10px;
+}
+
+h2{
+    background-color: #D2691E;
+}
+
+a{
+    background-color: #D2691E;
+    color: #141414;
+}
+
+ul,li{
+    list-style: none;
+    display: inline;
+}
+
+li{
+    padding: 15px;
+}
+
+body .header{
+    background-color: #696969;
+    padding: 1px;
+}
+
+#pageHeader{
+    background-color: #696969;
+    padding: 1px;
+}
+
+.bla{
+    background-color: #696969;
+    padding: 1px;
+}
+
+nav #menuPrincipal{
+    background-color: #696969;
+    padding: 1px;
+}
+
+ body #sidebar{
+    background-color: #696969;
+    padding: 1px;
+}
+
+footer{
+    padding: 10px;
+    background-color: #696969;
+}
+
+#posts{
+    background-color: #696969;
+}
+
+#menuRodape{
+    background-color: #696969;
+}
